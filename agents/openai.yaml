@@ -1,0 +1,14 @@
+interface:
+  display_name: StudyForge
+  short_description: Turn study materials into adaptive lessons
+  default_prompt: Use $study-forge to turn this material into an interactive lesson
+    and test my understanding.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
